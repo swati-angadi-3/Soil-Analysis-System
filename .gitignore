@@ -2,3 +2,27 @@ __pycache__/
 *.pyc
 data/soil.db
 tempCodeRunnerFile.py
+
+
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+ml_venv/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
