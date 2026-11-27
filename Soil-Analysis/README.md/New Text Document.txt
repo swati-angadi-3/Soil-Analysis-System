@@ -1,0 +1,15 @@
+📊 Power BI Dashboard Portfolio
+
+Welcome to my Power BI Portfolio!
+
+This repository contains my data analytics projects created using Microsoft Power BI.
+
+🚀 Project
+
+1. Soil Analysis System
+
+Tool: Microsoft Power BI
+
+Description: Data analysis and visualization of soil-related information.
+
+Skills: Data Cleaning, Data Visualization, Dashboard Development.
