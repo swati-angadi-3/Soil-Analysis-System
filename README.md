@@ -21,7 +21,7 @@ The project also includes an interactive Power BI dashboard for visualizing and 
 - Insights into soil strength classification.
 - Analysis of pH, moisture, density, and organic content.
 
-## 📊 Power BI Dashboard
+##  Power BI Dashboard
 
 The Power BI dashboard provides visual insights into soil properties and their classifications, helping users understand soil conditions through interactive visualizations.
 
@@ -33,7 +33,7 @@ Add your dashboard screenshot here.
 
 **Dashboard File:** `Soil-Analysis.pbix`
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Streamlit
@@ -64,7 +64,7 @@ ollama run llama3:8b
 python -m streamlit run app.py
 ```
 
-## 🗄️ Database
+##  Database
 
 Analysis data is stored locally using SQLite.
 
