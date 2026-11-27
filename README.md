@@ -11,8 +11,8 @@ This project analyzes soil properties such as pH, moisture, density, and organic
 - app.py → Streamlit application
 - requirements.txt → Project dependencies
 - data/soil.db → SQLite database
-- Power-BI/Soil-Analysis.pbix → Power BI dashboard
-- Power-BI/Dashboard.png → Dashboard preview
+- Soil-Analysis_Dashboard/soil_Analysis_Powerbi.pbix → Power BI dashboard
+- Soil-Analysis_Dashboard/soil_Anlysis_Dataset.xlsx → Soil analysis dataset
 
 ## Technologies Used
 
