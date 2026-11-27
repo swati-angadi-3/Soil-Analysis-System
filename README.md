@@ -1,100 +1,40 @@
-#  Soil Analysis System
+# Soil-Analysis-System
 
-An intelligent soil analysis system that classifies soil strength based on pH, moisture, density, and organic content. The application recommends suitable construction or agricultural uses and generates AI-powered soil reports using LLaMA3 (via Ollama).
+Soil Analysis System using Python, Streamlit, Ollama (LLaMA3), and Power BI.
 
-The project also includes an interactive Power BI dashboard for visualizing and exploring soil analysis data.
+## Project Overview
 
-##  Features
+This project analyzes soil properties such as pH, moisture, density, and organic content to classify soil strength and recommend suitable construction and agricultural uses. It also generates AI-powered soil reports and provides interactive Power BI dashboards.
 
-### 1. Soil Analysis Application
-- Soil strength classification (Strong / Moderate / Weak).
-- Construction suitability recommendations.
-- Agricultural suitability recommendations.
-- AI-generated soil analysis reports.
-- SQLite database for storing analysis inputs and outputs.
-- Saved records view and CSV export.
+## Repository Contents
 
-### 2. Power BI Dashboard
-- Interactive soil analysis dashboard.
-- Data visualization and analysis.
-- Visual representation of soil properties.
-- Insights into soil strength classification.
-- Analysis of pH, moisture, density, and organic content.
+- app.py → Streamlit application
+- requirements.txt → Project dependencies
+- data/soil.db → SQLite database
+- Power-BI/Soil-Analysis.pbix → Power BI dashboard
+- Power-BI/Dashboard.png → Dashboard preview
 
-##  Power BI Dashboard
-
-The Power BI dashboard provides visual insights into soil properties and their classifications, helping users understand soil conditions through interactive visualizations.
-
-**Dashboard Preview:**
-
-Add your dashboard screenshot here.
-
-`![Soil Analysis Dashboard](Dashboard.png)`
-
-**Dashboard File:** `Soil-Analysis.pbix`
-
-##  Technologies Used
+## Technologies Used
 
 - Python
 - Streamlit
-- Microsoft Power BI
 - Pandas
 - Requests
 - SQLite
 - Ollama (LLaMA3)
-- Data Visualization
+- Power BI
 
-## ⚙️ How to Run
+## Features
 
-### 1. Install dependencies
+- Soil Strength Classification (Strong / Moderate / Weak)
+- Construction and Agricultural Suitability Recommendations
+- AI-Powered Soil Analysis Reports
+- SQLite Data Storage
+- Saved Records and CSV Export
+- Interactive Power BI Dashboard
 
-```bash
-pip install -r requirements.txt
-```
+## Key Insights
 
-### 2. Run the AI model
-
-```bash
-ollama run llama3:8b
-```
-
-### 3. Start the Streamlit application
-
-```bash
-python -m streamlit run app.py
-```
-
-##  Database
-
-Analysis data is stored locally using SQLite.
-
-- Database: `data/soil.db`
-- Table: `soil_records`
-
-The database stores soil analysis inputs and generated outputs.
-
-##  Project Structure
-
-```text
-Soil-Analysis-System/
-│
-├── app.py
-├── requirements.txt
-├── data/
-│   └── soil.db
-│
-├── Power-BI/
-│   ├── Soil-Analysis.pbix
-│   └── Dashboard.png
-│
-└── README.md
-```
-
-##  Project Objective
-
-To combine AI-powered soil analysis with interactive data visualization, making soil assessment and decision-making more accessible and informative.
-
----
-
-**Project:** Soil Analysis System  
-**Tools:** Python | Streamlit | Power BI | SQLite | LLaMA3
+- Analyzed soil properties and strength classifications.
+- Explored construction and agricultural suitability.
+- Visualized soil analysis data through interactive Power BI dashboards.
